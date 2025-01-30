@@ -61,3 +61,19 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+UnityScene-KnightFall/Library/AnnotationManager
+
+UnityScene-KnightFall/Library/APIUpdater/ConfigurationCache/
+
+UnityScene-KnightFall/Library/PackageCache/
+
+UnityScene-KnightFall/Library/Artifacts/
+
+UnityScene-KnightFall/Library/Bee/
+
+UnityScene-KnightFall/Library/ArtifactDB
+
+UnityScene-KnightFall/Library/ArtifactDB-lock
+
+UnityScene-KnightFall/Logs/
