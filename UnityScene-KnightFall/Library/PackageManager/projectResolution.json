@@ -1,18 +1,28 @@
 {
   "context": {
-    "projectPath": "C:/Users/vigor/Repositories/KnightFallGame/UnityScene-KnightFall/Packages",
+    "projectPath": "C:/Users/vigor/Repositories/KnightFall/KnightFall/UnityScene-KnightFall/Packages",
     "unityVersion": "6000.0.35f1"
   },
   "inputs": [
-    "C:\\Users\\vigor\\Repositories\\KnightFallGame\\UnityScene-KnightFall\\Packages\\manifest.json",
-    "C:\\Users\\vigor\\Repositories\\KnightFallGame\\UnityScene-KnightFall\\Packages\\packages-lock.json",
+    "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Packages\\manifest.json",
+    "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.35f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.ai.navigation@2.0.6": {
+      "name": "com.unity.ai.navigation",
+      "displayName": "AI Navigation",
+      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.ai.navigation@c74b2724ed42",
+      "fingerprint": "c74b2724ed42c1aa0380e294156d7f54a7ae2ec6",
+      "editorCompatibility": "2023.2.0a18",
+      "version": "2.0.6",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.inputsystem@1.11.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFallGame\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.inputsystem@3c4a97c3950f",
+      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.inputsystem@3c4a97c3950f",
       "fingerprint": "3c4a97c3950fef77960981e0fe90613de6e512ee",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.11.2",
@@ -22,10 +32,20 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFallGame\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.multiplayer.center@f502d8ac613f",
+      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.multiplayer.center@f502d8ac613f",
       "fingerprint": "f502d8ac613fa076192423e73892fbd89eb4049b",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "Unity UI",
+      "resolvedPath": "C:\\Users\\vigor\\Repositories\\KnightFall\\KnightFall\\UnityScene-KnightFall\\Library\\PackageCache\\com.unity.ugui@24b10291b18f",
+      "fingerprint": "24b10291b18f65e937b22d041c48712033f29449",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },

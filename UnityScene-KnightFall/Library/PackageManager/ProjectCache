@@ -1,33 +1,150 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/vigor/Repositories/KnightFallGame/UnityScene-KnightFall/Packages/manifest.json
+    m_FilePath: C:/Users/vigor/Repositories/KnightFall/KnightFall/UnityScene-KnightFall/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638739688284177234
-    m_Hash: 2901366435
+      ticks: 638760269408119664
+    m_Hash: 1042717925
   m_LockFileStatus:
-    m_FilePath: C:/Users/vigor/Repositories/KnightFallGame/UnityScene-KnightFall/Packages/packages-lock.json
+    m_FilePath: C:/Users/vigor/Repositories/KnightFall/KnightFall/UnityScene-KnightFall/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638739688284193046
-    m_Hash: 731912307
+      ticks: 638760269408228317
+    m_Hash: 3482514121
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/vigor/Repositories/KnightFallGame/UnityScene-KnightFall/Packages
+m_ProjectPath: C:/Users/vigor/Repositories/KnightFall/KnightFall/UnityScene-KnightFall/Packages
 m_EditorVersion: 6000.0.35f1 (9a3bc604008a)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@2.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.6
+  source: 1
+  resolvedPath: C:\Users\vigor\Repositories\KnightFall\KnightFall\UnityScene-KnightFall\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The AI Navigation package contains high-level components that allow
+    you to use navmeshes to incorporate navigation and pathfinding in your game.
+    With this package installed you can build and use navmeshes at runtime and at
+    edit time, create dynamic obstacles, and use links to allow specific actions
+    (like jumping) as your characters navigate between navmeshes.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords:
+  - carving
+  - mesh
+  - navigation
+  - navmesh
+  - NavMesh
+  - navmesh agent
+  - navmesh link
+  - navmeshlink
+  - navmesh modifier
+  - navmeshmodifier
+  - navmesh modifier volume
+  - navmeshmodifiervolume
+  - navmesh obstacle
+  - navmesh surface
+  - navmeshsurface
+  - offmesh link
+  - off-mesh link
+  - pathfinding
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638744428199200000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 40d59de7f59b90e8da1a6176e78784a85f3e7f80
+    path: 
+  unityLifecycle:
+    version: 2.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n* New **OffMesh Link Converter** tool in
+    the **Window** > **AI** > **Navigation Updater** window to help you automatically
+    replace **OffMesh Links** with **NavMesh Links** in the scenes and prefabs of
+    your project.\n\n### Fixed\n* Fixed a regression that caused controls in the
+    navigation scene view overlay popup to display on top of one another when foldouts
+    were open. (Requires Unity 6000.0.22f1 or newer)\n* The AI Navigation overlay
+    was rarely needed upon the initial installation of the package. Now it is hidden
+    by default and you can enable it through the [Overlay Menu](https://docs.unity3d.com/Manual/display-and-hide-overlay.html).\n*
+    Fixed a regression that caused the Editor to allocate unnecessary memory on some
+    platforms, when the project contained package test files."}'
+  assetStore:
+    productId: 
+  fingerprint: c74b2724ed42c1aa0380e294156d7f54a7ae2ec6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.5
+    minimumUnityVersion: 2023.2.0a18
 - packageId: com.unity.inputsystem@1.11.2
   testable: 0
   isDirectDependency: 1
   version: 1.11.2
   source: 1
-  resolvedPath: C:\Users\vigor\Repositories\KnightFallGame\UnityScene-KnightFall\Library\PackageCache\com.unity.inputsystem@3c4a97c3950f
+  resolvedPath: C:\Users\vigor\Repositories\KnightFall\KnightFall\UnityScene-KnightFall\Library\PackageCache\com.unity.inputsystem@3c4a97c3950f
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -94,9 +211,13 @@ m_ResolvedPackages:
     - 1.11.1
     - 1.11.2
     - 1.12.0
+    - 1.13.0
+    - 1.13.1
     compatible:
     - 1.11.2
     - 1.12.0
+    - 1.13.0
+    - 1.13.1
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -180,7 +301,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\vigor\Repositories\KnightFallGame\UnityScene-KnightFall\Library\PackageCache\com.unity.multiplayer.center@f502d8ac613f
+  resolvedPath: C:\Users\vigor\Repositories\KnightFall\KnightFall\UnityScene-KnightFall\Library\PackageCache\com.unity.multiplayer.center@f502d8ac613f
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -265,6 +386,98 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.ugui@2.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 2
+  resolvedPath: C:\Users\vigor\Repositories\KnightFall\KnightFall\UnityScene-KnightFall\Library\PackageCache\com.unity.ugui@24b10291b18f
+  assetPath: Packages/com.unity.ugui
+  name: com.unity.ugui
+  displayName: Unity UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Unity UI is a set of tools for developing user interfaces for games
+    and applications. It is a GameObject-based UI system that uses Components and
+    the Game View to arrange, position, and style user interfaces. \u200B You cannot
+    use Unity UI to create or change user interfaces in the Unity Editor."
+  errors: []
+  versions:
+    all:
+    - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
+    compatible:
+    - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
+    recommended: 2.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - UI
+  - ugui
+  - Unity UI
+  - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 24b10291b18f65e937b22d041c48712033f29449
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0
+    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
